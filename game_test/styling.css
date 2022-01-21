@@ -1,3 +1,14 @@
+body {
+  overflow-x: scroll;
+}
+
 img {
   image-rendering: pixelated;
+  color: transparent;
+  border-color: transparent;
+  overflow: hidden;
+}
+p {
+  word-wrap: normal;
+  text-align: center;
 }
